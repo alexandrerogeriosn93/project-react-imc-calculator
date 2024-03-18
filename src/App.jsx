@@ -1,9 +1,11 @@
+import ImcCalc from "./components/ImcCalc";
+
 import "./App.css";
 
 function App() {
   return (
-    <div>
-      <p>Calculadora de IMC</p>
+    <div className="container">
+      <ImcCalc />
     </div>
   );
 }
